@@ -1,0 +1,35 @@
+  body {
+      position: relative; 
+  };
+  #home {
+      padding-top:50px;
+      height:500px;
+      color: #fff;
+      background-color: #1E88E5;
+    };
+
+  #about {
+      padding-top:50px;
+      height:500px;
+      color: #fff; 
+      background-color: #673ab7;
+    };
+
+  #location {
+      padding-top:50px;
+      height:500px;
+      color: #fff; 
+      background-color: #ff9800
+    };
+  #award {
+      padding-top:50px;
+      height:500px;
+      color: #fff; 
+      background-color: #00bcd4
+    };
+  #contact {
+      padding-top:50px;
+      height:500px;
+      color: #fff;
+    background-color: #009688
+};
