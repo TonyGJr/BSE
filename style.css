@@ -5,27 +5,27 @@
       padding-top:50px;
       height:500px;
       color: #fff;
-      background-color: #1E88E5;
+      background-color:lightblue
     }
 
   #services {
       padding-top:50px;
       height:500px;
       color: #fff; 
-      background-color: #673ab7;
+      background-color:gold
     }
 
   #location {
       padding-top:50px;
       height:500px;
       color: #fff; 
-      background-color: #ff9800
+      background-color: black
     }
   #award {
       padding-top:50px;
       height:500px;
       color: #fff; 
-      background-color: #00bcd4
+      background-color:orange
     }
 
 
@@ -33,19 +33,19 @@
       padding-top:50px;
       height:500px;
       color: #fff;
-    background-color: #009688
+    background-color:grey
 }
 
   #safety {
       padding-top:50px;
       height:500px;
       color: #fff;
-    background-color: red
+    background-color: silver
 }
 
   #awards {
       padding-top:50px;
       height:500px;
       color: #fff;
-    background-color: pink
+      background-color: green
 }
