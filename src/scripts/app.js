@@ -1,3 +1,7 @@
 $(document).ready(function() {
-    console.log('I show in the console on page load');
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      direction: 'vertical',
+      loop: true
+    }); 
 });
