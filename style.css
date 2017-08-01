@@ -8,7 +8,7 @@
       padding-top:50px;
       height:500px;
       color: #fff;
-      background-color:lightblue
+      background-color:red
     }
 
   #services {
@@ -36,21 +36,21 @@
       padding-top:50px;
       height:500px;
       color: #fff;
-    background-color:grey
+    background-color:brown
 }
 
   #safety {
       padding-top:50px;
       height:500px;
       color: #fff;
-    background-color: silver
+    background-color:green
 }
 
   #awards {
       padding-top:50px;
       height:500px;
       color: #fff;
-      background-color: green
+      background-color:blue
 }
 
 hr.style1 {
