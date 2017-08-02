@@ -98,3 +98,15 @@ body{
 .angled-both-right-left{
     @include angle-edge(topright, 3deg, bottomleft, 3deg);
 }
+
+.container-fluid {
+width: 100%;
+
+}
+
+#hat
+{
+    background-image: url("../../img/hardhat.png");
+    background-size:contain;
+
+}
