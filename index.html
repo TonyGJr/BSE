@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="dist/styles/app.css">
     <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.css">
@@ -44,28 +45,49 @@
     </nav>
 
     <div id="home" class="container-fluid">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/BumpysSteel.png" style="width:100%; height: 100%;">
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
 
 
 
     </div>
-    <div id="services" class="container-fluid">
-        <h1><a href="services.html">Quality Services</a></h1>
-        <p>
+
+    <div id="container" class="angled-bottom-left" style="background-color:gold;">
+        <div class="content">
+            <h1><a href="services.html">Quality Services</a></h1>
+
             <ul>
                 <li>Text</li>
                 <li>Text</li>
             </ul>
+        </div>
+
 
     </div>
-    <div id="location" class="container-fluid">
-        <h1>Location</h1>
-        <h2> 327 Missouri Ave.,Ste.520,East,St.Louis,IL 62201</h2>
-        <h1> Contact:Ashanti Mitchell </h1>
-        <h1> Officenumber: (618)274-0105 </h1>
-        <h1> Fax number: (618) 274-0289 </h1>
-        <h1> Cell number: (314) 486-1195 </h1>
-        <h1> Email:ashantim@bumpyssteel.com</h1>
-    </div>
+    <div id="container" class="angled-top-right" style="background-color:black;">
+        <div class="content">
+            <h1>Location</h1>
+            <h3>327 Missouri Ave.,Ste.520,East,St.Louis,IL 62201</h3>
+            <h3> Contact:Ashanti Mitchell</h3> 
+            <h3>Officenumber: (618)274-0105</h3>
+            <h3>Fax number: (618) 274-0289</h3>
+            <h3>Cell number: (314) 486-1195</h3>
+            <h3> Email:ashantim@bumpyssteel.com</h3>
+        </div>
     </div>
     </div>
     <div id="about" class="container-fluid">
