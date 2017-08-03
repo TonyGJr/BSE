@@ -25,7 +25,7 @@ h4{
       padding-top:50px;
       height:500px;
       color: #fff; 
-      background-color:gold
+      background-color:gold;
     }
 
   #location {
@@ -46,14 +46,16 @@ h4{
       padding-top:50px;
       height:500px;
       color: #fff;
-    background-color:brown
+      background-color:brown
 }
 
   #safety {
       padding-top:50px;
       height:500px;
       color: #fff;
-    background-color:green
+      background-image: url(img/work.jpeg), 100% !important;
+      background-repeat: no-repeat;
+      background-position: center bottom;
 }
 
   #awards {
