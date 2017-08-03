@@ -104,9 +104,9 @@ width: 100%;
 
 }
 
-#hat
-{
-    background-image: url("../../img/hardhat.png");
-    background-size:contain;
-
+#hat {
+  background-image: url("../../img/hardhat.png");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center bottom;
 }
