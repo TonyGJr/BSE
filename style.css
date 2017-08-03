@@ -1,6 +1,7 @@
   body {
       position: relative; 
       background-image: url('img/tape-1.png') !important;
+    
       }
 
 h4{
@@ -26,6 +27,7 @@ h4{
       height:500px;
       color: #fff; 
       background-color:gold;
+      
     }
 
   #location {
