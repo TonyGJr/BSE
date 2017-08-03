@@ -58,6 +58,7 @@ hr.style1 {
 }
 
    .swiper-container {
+       display:inline-block !important;
         width: 100%;
         height: 100%;
         
