@@ -1,6 +1,6 @@
   body {
       position: relative; 
-      background-color: lightgrey;
+      background-image: url('img/tape-1.png') !important;
       }
 
 h4{
@@ -22,7 +22,7 @@ h4{
     } 
 
   #services {
-      padding-top:50px;
+      padding-top:0px;
       height:500px;
       color: #fff; 
       background-color:gold
