@@ -53,9 +53,10 @@ h4{
       padding-top:50px;
       height:500px;
       color: #fff;
-      background-image: url(img/work.jpeg), 100% !important;
+      background-image: url(img/work.jpeg) !important;
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position: center bottom;
+      background-position: center;
 }
 
   #awards {
