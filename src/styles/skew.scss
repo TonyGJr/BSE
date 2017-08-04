@@ -1,4 +1,4 @@
-@mixin skew-me($angle, $background: green){
+@mixin skew-me($angle, $background: gold){
     position: relative;
     background: $background;
     &:before {
