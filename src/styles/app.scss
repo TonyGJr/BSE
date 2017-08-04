@@ -130,4 +130,8 @@ width: 100%;
 #location {
 
    @include skew-me(3deg);
+   &:before {
+       z-index:0;
+       background: url('../../tape-2.png') repeat-x gold;
+   }
 }
