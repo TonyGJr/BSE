@@ -48,7 +48,7 @@ h4{
       padding-top:50px;
       height:500px;
       color: #fff;
-      background-color:brown
+      background-color:black;
 }
 
   #safety {
@@ -104,7 +104,6 @@ hr.style1 {
     margin-right: auto !important;
     margin-left: auto !important;
     }
-    
 div.gallery {
     margin: 35px;
     border: 5px solid black;
