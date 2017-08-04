@@ -1,6 +1,7 @@
   body {
       position: relative; 
       background-image: url('img/tape-1.png') !important;
+      background-repeat: round;
     
       }
 
