@@ -105,3 +105,27 @@ hr.style1 {
     margin-left: auto !important;
     }
     
+div.gallery {
+    margin: 35px;
+    border: 5px solid black;
+    
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 7px solid white;
+    
+}
+div.gallery img {
+    width: 200%;
+    height: auto;
+}
+.div.gallery border{
+    size: 200%;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
