@@ -123,7 +123,7 @@
 
 
                                 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCfjwGcf96CJf41hYy_viJ_MzTc8KdkYrQ'></script>
-                                <div style='overflow:hidden;display:inline-block'>
+                                <div style='overflow:hidden;display:inline-block; color: black'>
                                     <div id='gmap_canvas' style='height:400px;width:520px;'></div>
                                     <style>
                                         #gmap_canvas img {
@@ -141,7 +141,7 @@
                                         };
                                         map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
                                         marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(38.6272036, -90.15974599999998) });
-                                        infowindow = new google.maps.InfoWindow({ content: '<strong>Bumpy Steel Erection</strong><br>327 Missouri Ave<br>62201 East St. Louis<br>' });
+                                        infowindow = new google.maps.InfoWindow({ content: '<strong style="color:black">Bumpy Steel Erection</strong><br>327 Missouri Ave<br>62201 East St. Louis<br>' });
                                         google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); });
                                         infowindow.open(map, marker);
                                     } google.maps.event.addDomListener(window, 'load', init_map);
