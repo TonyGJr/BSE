@@ -4,6 +4,9 @@ $color3: #2ec4b6; //rgba(46, 196, 182, 100)
 $color4: #e71d36; //rgba(231, 29, 54, 100)
 $color5: #ff9f1c; //rgba(255, 159, 28, 100)
 
+//MIXINS
+@import 'skew';
+
 body{
     margin: 0;
     font-family: DaysOne-Regular;
@@ -119,6 +122,12 @@ width: 100%;
     transform: rotate(-3deg);
 }
 
-button {
-    color: yellow;
+.btn-primary.btn-lg {
+    background: gold;
+    border: gold;
+}
+
+#location {
+
+   @include skew-me(3deg);
 }
