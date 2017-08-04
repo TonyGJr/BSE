@@ -14,7 +14,8 @@
     <script src="node_modules/swiper/dist/js/swiper.jquery.min.js"></script>
     <script src="dist/scripts/main.js"></script>
     <style>
-        h1, h4 {
+        h1,
+        h4 {
             color: white;
             text-shadow: 2px 2px black !important;
         }
@@ -43,7 +44,7 @@
                         <li><a href="#location">Locations</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#safety">Safety</a></li>
-                        <li><a href="#awards">Awards</a></li>
+                        <li><a href="#certs">Certifications</a></li>
 
                     </ul>
                 </div>
@@ -118,9 +119,35 @@
                 <div class="content">
                     <div id="container" class="angled-top-right">
                         <div id="location">
-                            <div class="content">
-                                
-                                <center>
+                            <div class="content" style="display: inline-block">
+
+
+                                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCfjwGcf96CJf41hYy_viJ_MzTc8KdkYrQ'></script>
+                                <div style='overflow:hidden;display:inline-block'>
+                                    <div id='gmap_canvas' style='height:400px;width:520px;'></div>
+                                    <style>
+                                        #gmap_canvas img {
+                                            max-width: none!important;
+                                            background: none!important
+                                        }
+                                    </style>
+                                </div> <a href='https://www.embedmap.net/'>google widgets</a>
+                                <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=8f66cc2cbfa5fd173194bdf2cd834b86d01abe38'></script>
+                                <script type='text/javascript'>
+                                    function init_map() {
+                                        var myOptions = {
+                                            zoom: 13, center: new google.maps.LatLng(38.6272036, -90.15974599999998),
+                                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                                        };
+                                        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                                        marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(38.6272036, -90.15974599999998) });
+                                        infowindow = new google.maps.InfoWindow({ content: '<strong>Bumpy Steel Erection</strong><br>327 Missouri Ave<br>62201 East St. Louis<br>' });
+                                        google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); });
+                                        infowindow.open(map, marker);
+                                    } google.maps.event.addDomListener(window, 'load', init_map);
+                                </script>
+
+                                <div style="display:inline-block">
                                     <h1>Location</h1>
                                     <h3>327 Missouri Ave.,Ste.520,East,St.Louis,IL 62201</h3>
                                     <h3> Contact:Ashanti Mitchell</h3>
@@ -128,8 +155,9 @@
                                     <h3>Fax number: (618) 274-0289</h3>
                                     <h3>Cell number: (314) 486-1195</h3>
                                     <h3> Email:ashantim@bumpyssteel.com</h3>
+                                </div>
                             </div>
-                            </center>
+
                         </div>
                     </div>
 
@@ -163,9 +191,9 @@
                                         </center>
                                     </div>
 
-                                    <div id="awards" class="container-fluid">
+                                    <div id="certs" class="container-fluid">
                                         <center>
-                                            <h1>Awards</h1>
+                                            <h1>Certifications</h1>
                                             <p>Try to scroll this section and look at the navigation bar while scrolling! Try
                                                 to scroll this section and look at the navigation bar while scrolling!</p>
                                             <p>Try to scroll this section and look at the navigation bar while scrolling! Try

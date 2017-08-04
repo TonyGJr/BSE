@@ -1,6 +1,7 @@
   body {
       position: relative; 
       background-image: url('img/tape-1.png') !important;
+      background-repeat: round;
     
       }
 
@@ -31,12 +32,11 @@ h4{
     }
 
   #location {
-      padding-top:50px;
-      height:500px;
+      padding-top:0px;
       color: #fff; 
       background-color: black
     }
-  #award {
+  #certs {
       padding-top:50px;
       height:500px;
       color: #fff; 
@@ -61,7 +61,7 @@ h4{
       background-position: center;
 }
 
-  #awards {
+  #certs {
       padding-top:50px;
       height:500px;
       color: #fff;
