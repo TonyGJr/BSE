@@ -128,7 +128,6 @@ div.desc {
     max-width: 200px;
 }
 
-<<<<<<< HEAD
 .text
 {
     background-color: white;
@@ -149,7 +148,7 @@ div.desc {
 
 .aboutus{
     width: 1000px;
-=======
+}
 .handshake {
     border-radius:100%
 }
@@ -164,5 +163,4 @@ div.desc {
 
 .grey{
     border-radius:100%
->>>>>>> 2bb3d980f56d60e8a6896c246020e337099a40dd
 }
