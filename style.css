@@ -38,8 +38,7 @@ h4{
     }
  
   #about {
-      padding-top:10px;
-      height:500px;
+      
       color: #fff;
       background-color:black;
 }
@@ -194,19 +193,8 @@ div.desc {
     height: 291px;
 }
 
-.logo {
-    float: left;
-}
-
-.city
-{
-    
-    float: right;
-
-}
-
 .aboutus{
-    width: 1000px;
+    max-width: 300px;
 }
 .handshake {
     border-radius:100%
