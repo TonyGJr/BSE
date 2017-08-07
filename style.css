@@ -45,7 +45,7 @@ h4{
 
 
   #about {
-      padding-top:50px;
+      padding-top:10px;
       height:500px;
       color: #fff;
       background-color:black;
@@ -128,6 +128,7 @@ div.desc {
     max-width: 200px;
 }
 
+<<<<<<< HEAD
 .text
 {
     background-color: white;
@@ -148,4 +149,20 @@ div.desc {
 
 .aboutus{
     width: 1000px;
+=======
+.handshake {
+    border-radius:100%
+}
+
+.service guy{
+    border-radius: 100%
+}
+
+.person {
+    border-radius: 100%
+}
+
+.grey{
+    border-radius:100%
+>>>>>>> 2bb3d980f56d60e8a6896c246020e337099a40dd
 }
