@@ -43,6 +43,63 @@ h4{
       color: #fff;
       background-color:black;
 }
+
+
+/*CONTACT PAGE*/
+h2 {
+        text-align: center;
+        font-size: 45px;
+        color: white;
+        font-weight: bold;
+    }
+
+
+
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    .container {
+        border-radius: 5px;
+        background-color: gold;
+        border: 5px solid black;
+        padding: 20px;
+        
+    }
+
+    .title {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 51px;
+    }
+    .why{
+        padding-top: 60px;
+    }
+    /*END CONTACT */
 .button1 {
     background-color: gold;
     color: black;
