@@ -127,3 +127,25 @@ div.desc {
     padding: 5px;
     max-width: 200px;
 }
+
+.text
+{
+    background-color: white;
+    color: black;
+    height: 291px;
+}
+
+.logo {
+    float: left;
+}
+
+.city
+{
+    visibility: hidden;
+    float: right;
+
+}
+
+.aboutus{
+    width: 1000px;
+}
