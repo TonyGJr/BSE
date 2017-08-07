@@ -23,11 +23,13 @@
             text-shadow: 2px 2px black !important;
             padding-top: 100px;
         }
-p{
-    padding-right: 40px;
-    padding-left: 40px;
-    color:black;
-}
+
+        p {
+            padding-right: 40px;
+            padding-left: 40px;
+            color: black;
+        }
+
         body {
             background-image: url('img/Steel picture.jpg') !important;
         }
@@ -62,27 +64,29 @@ p{
 
 <body>
     <div>
-    <div>
-        <center>
-            <h4> What we offer?</h4>
-        </center>
+
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
-    <div name="wwo" class="wwo">
-        <p> Bummpy's Steel Erection, LLC serves both the state of Illinois and Missouri with commercial and non commercial steel
-            Erection and installation,concrete reinforcing on buildings,bridges, highways,tunnes and others structures.We
-            employ the best union affiliated iron workers from local 396,392,and 46 whose professionalism and craftsmanship
-            is unsurpassed. Bummpy's Steel Erection LLC has and continues to provide steel services for IDOT/MODOT and private
-            customers in the city of East St.Louis,IL and St.Louis,MO as well as the surrounding areas for both states.We
-            are eagerly looking forward to serving and providing you with the expertise and professional steel service that
-            is best known for "Safely Piecing America Together".
-        </p>
-    </div>
-    <div>
-        <center>
-    <button type="button1" class="button1" href="contact.html">Contact Us!</button>
-    </center>
-    </div>
-</div>
 </body>
 
 </html>
