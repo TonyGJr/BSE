@@ -43,7 +43,17 @@ h4{
       color: #fff;
       background-color:black;
 }
+.button1 {
+    background-color: gold;
+    color: black;
+    border: 2px solid black;
+    width: 200px
 
+}
+.button1:hover {
+    background-color: black; /* Green */
+    color: white;
+}
   #safety {
       padding-top:50px;
       height:500px;
