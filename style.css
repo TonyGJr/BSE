@@ -36,14 +36,7 @@ h4{
       color: #fff; 
       background-color: black
     }
-  #certs {
-      padding-top:50px;
-      height:500px;
-      color: #fff; 
-      background-color:orange
-    }
-
-
+ 
   #about {
       padding-top:10px;
       height:500px;
@@ -63,7 +56,6 @@ h4{
 
   #certs {
       padding-top:50px;
-      height:500px;
       color: #fff;
       background-color:blue
 }
