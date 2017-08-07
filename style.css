@@ -127,3 +127,19 @@ div.desc {
     padding: 5px;
     max-width: 200px;
 }
+
+.handshake {
+    border-radius:100%
+}
+
+.service guy{
+    border-radius: 100%
+}
+
+.person {
+    border-radius: 100%
+}
+
+.grey{
+    border-radius:100%
+}
