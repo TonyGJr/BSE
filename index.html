@@ -56,7 +56,7 @@
             <div class="swiper-wrapper">
                 <div id="hat" class="swiper-slide">
                     <h1>AMERICA DREAMS IT <br> WE BUILD IT <br><br>
-                        <button type="button" class="btn btn-primary btn-lg" onclick="location.href='contact.html';">SHARE YOUR DREAM</button> </h1>
+                        <button type="button" class="btn btn-primary btn-lg" onclick="location.href='contact.html';">SHARE YOUR DREAM</button>                        </h1>
 
 
                 </div>
@@ -84,6 +84,8 @@
         <div id="services">
 
             <div class="content">
+                </br>
+                </br>
                 <center>
                     <h4>Quality Services</h4>
                 </center>
@@ -92,21 +94,21 @@
                         <a href="services.html">
                             <img src="img/BumpysSteel.png" alt="BumpySteel" max-width="200px">
                      </a>
-                        <div class="desc">We specialize in commercial and non-commercial steel erection and installation across the board.</div>
+                        <div class="desc" style="background-color: gold;">We specialize in commercial and non-commercial steel erection and installation across the board.</div>
                     </div>
 
                     <div class="gallery">
                         <a href="services.html">
                         <img src="img/rebar.png" alt="Rebar" width="200" height="200">
                      </a>
-                        <div class="desc">We also specialize in concrete reinforcing on buildings, bridges, highways, tunnels, and other structures.
+                        <div class="desc" style="background-color: gold;">We also specialize in concrete reinforcing on buildings, bridges, highways, tunnels, and other structures.
                         </div>
                     </div>
                     <div class="gallery">
                         <a href="services.html">
                         <img src="img/rebar.png" alt="Rebar" width="200" height="200">
                      </a>
-                        <div class="desc">Interested in other work that we do? Feel free to inquire about it! We have an incredible track record!</div>
+                        <div class="desc" style="background-color: gold;">Interested in other work that we do? Feel free to inquire about it! We have an incredible track record!</div>
                     </div>
             </div>
             </center>
@@ -118,52 +120,57 @@
 
             <div class="content">
 
-                <div id="location">
-                    <div class="content" style="display: inline-block">
-                        <center>
-                            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCfjwGcf96CJf41hYy_viJ_MzTc8KdkYrQ'></script>
-                            <div style='overflow:hidden;display:inline-block; color: black'>
-                                <div id='gmap_canvas' style='height:400px;width:520px;'></div>
-                                <style>
-                                    #gmap_canvas img {
-                                        max-width: none!important;
-                                        background: none!important
-                                    }
-                                </style>
-                            </div> <a href='https://www.embedmap.net/'>google widgets</a>
-                            <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=8f66cc2cbfa5fd173194bdf2cd834b86d01abe38'></script>
-                            <script type='text/javascript'>
-                                function init_map() {
-                                    var myOptions = {
-                                        zoom: 13, center: new google.maps.LatLng(38.6272036, -90.15974599999998),
-                                        mapTypeId: google.maps.MapTypeId.ROADMAP
-                                    };
-                                    map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-                                    marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(38.6272036, -90.15974599999998) });
-                                    infowindow = new google.maps.InfoWindow({ content: '<strong style="color:black">Bumpy Steel Erection</strong><br>327 Missouri Ave<br>62201 East St. Louis<br>' });
-                                    google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); });
-                                    infowindow.open(map, marker);
-                                } google.maps.event.addDomListener(window, 'load', init_map);
-                            </script>
 
-                            <div style="display:inline-block">
-                                <h4>Location</h4>
-                                <h3>327 Missouri Ave., Ste.520, East St.Louis,IL 62201</h3>
-                                <h3> Contact: Ashanti Mitchell</h3>
-                                <h3>Officenumber: (618)274-0105</h3>
-                                <h3>Fax number: (618)274-0289</h3>
-                                <h3>Cell number: (314)486-1195</h3>
-                                <h3>Email: Ashantim@bumpyssteel.com</h3>
-                            </div>
-                        </center>
-                    </div>
+                <div class="content" style="display: inline-block">
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    <center>
+                        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCfjwGcf96CJf41hYy_viJ_MzTc8KdkYrQ'></script>
+                        <div style='overflow:hidden;display:inline-block; color: black'>
+                            <div id='gmap_canvas' style='height:400px;width:520px;'></div>
+                            <style>
+                                #gmap_canvas img {
+                                    max-width: none!important;
+                                    background: none!important
+                                }
+                            </style>
+                        </div> <a href='https://www.embedmap.net/'>google widgets</a>
+                        <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=8f66cc2cbfa5fd173194bdf2cd834b86d01abe38'></script>
+                        <script type='text/javascript'>
+                            function init_map() {
+                                var myOptions = {
+                                    zoom: 13, center: new google.maps.LatLng(38.6272036, -90.15974599999998),
+                                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                                };
+                                map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                                marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(38.6272036, -90.15974599999998) });
+                                infowindow = new google.maps.InfoWindow({ content: '<strong style="color:black">Bumpy Steel Erection</strong><br>327 Missouri Ave<br>62201 East St. Louis<br>' });
+                                google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); });
+                                infowindow.open(map, marker);
+                            } google.maps.event.addDomListener(window, 'load', init_map);
+                        </script>
 
-
+                        <div style="display:inline-block">
+                            <h4>Location</h4>
+                            <h3>327 Missouri Ave., Ste.520, East St.Louis,IL 62201</h3>
+                            <h3> Contact: Ashanti Mitchell</h3>
+                            <h3>Officenumber: (618)274-0105</h3>
+                            <h3>Fax number: (618)274-0289</h3>
+                            <h3>Cell number: (314)486-1195</h3>
+                            <h3>Email: Ashantim@bumpyssteel.com</h3>
+                        </div>
+                    </center>
                 </div>
+
+
+
             </div>
         </div>
     </div>
     <div id="about">
+<<<<<<< HEAD
         <div class="row">
             <div class="col-xs-3 crane"></div>
             <div class="col-xs-6">
@@ -172,13 +179,52 @@
                 <button type="button" class="btn btn-primary btn-lg">Learn More</button>
             </div>
             <div class="col-xs-3">
+=======
+        <div id="container" class="angled-top-left">
+            <div id="about">
+                <div class="content">
+
+
+                    <div class="content">
+                        <center>
+                            <div id="aboutus" class="angled-top-right">
+                                </br>
+                                </br>
+                                <h1>About Us</h1>
+                                <div style="display:inline-block; background-color:white" !important>
+                                    <img src="img/BumpyLogo.png">
+                                    <div class="text">
+                                        <p>Lorem ipsum dolor sit amet, in recteque inciderint per, qui accusam referrentur ea.
+                                            Eam id decore essent platonem, mei no habeo timeam. Qui masata voluptatibus.
+                                            Per quot option sententiae id, viri cum id dicunt iuvaret.<br><br>
+                                            <button type="button" class="btn btn-primary btn-lg" onclick="location.href='aboutus.html';">READ MORE</button>                                            </h1>
+
+                                        </p>
+                                    </div>
+
+                                    <img src="img/city.png" style="width:200px;">
+                                </div>
+                            </div>
+                    </div>
+
+
+                </div>
+>>>>>>> 15d6680ad066b018efdf39cca69a19e4f10a3dff
             </div>
         </div>
     </div>
     <div id="container" class="angled-top-right">
         <div id="safety" class="container-fluid">
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
             <center>
-                <button type="button" class="btn btn-primary btn-lg">SAFELY PIECING AMERICA TOGETHER</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="location.href='safety.html';">SAFELY PIECING AMERICA TOGETHER</button>
             </center>
         </div>
     </div>
