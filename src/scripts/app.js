@@ -16,9 +16,7 @@ $(document).ready(function() {
     document.getElementById("container").className = "" + x;
 }
 
-function contactLink() {
-    document.getElementById("contact.html");
-}
+
 
 
 });
