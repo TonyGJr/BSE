@@ -75,32 +75,32 @@ body{
 }
 
 .angled-top-left{
-    @include angle-edge($pos-top: topleft, $angle-top: 3deg);
+    @include angle-edge($pos-top: topleft, $angle-top: 2deg);
 }
 
 .angled-top-right{
-    @include angle-edge($pos-top: topright, $angle-top: 3deg);
+    @include angle-edge($pos-top: topright, $angle-top: 2deg);
 }
 
 .angled-bottom-left{
-    @include angle-edge($pos-btm: bottomleft, $angle-btm: 3deg);
+    @include angle-edge($pos-btm: bottomleft, $angle-btm: 2deg);
 }
 
 .angled-bottom-right{
-    @include angle-edge($pos-btm: bottomright, $angle-btm: 3deg);
+    @include angle-edge($pos-btm: bottomright, $angle-btm: 2deg);
 }
 
 .angled-both-left{
-    @include angle-edge(topleft, 3deg, bottomleft, 3deg);
+    @include angle-edge(topleft, 3deg, bottomleft, 2deg);
 }
 .angled-both-right{
-    @include angle-edge(topright, 3deg, bottomright, 3deg);
+    @include angle-edge(topright, 3deg, bottomright, 2deg);
 }
 .angled-both-left-right{
-    @include angle-edge(topleft, 3deg, bottomright, 3deg);
+    @include angle-edge(topleft, 3deg, bottomright, 2deg);
 }
 .angled-both-right-left{
-    @include angle-edge(topright, 3deg, bottomleft, 3deg);
+    @include angle-edge(topright, 3deg, bottomleft, 2deg);
 }
 
 .container-fluid {
