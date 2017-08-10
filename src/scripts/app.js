@@ -7,7 +7,7 @@ $(document).ready(function() {
         paginationClickable: true,
         spaceBetween: 30,
         centeredSlides: true,
-        autoplay: 9000,
+        autoplay: 9500,
         autoplayDisableOnInteraction: false
     });
 
